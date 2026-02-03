@@ -2,8 +2,6 @@ library(tidyverse)
 library(drc)
 library(ggthemr)
 
-setwd('~/Desktop/RauLab/Coding/dex_admin/')
-
 df <- read.csv('1.29.26.csv')
 
 ###############################################################################
@@ -157,7 +155,7 @@ ggplot() +
   labs(
     x = "Dose (nM)",
     y = "Cell Viability (%)",
-    title = "Dexamethasone Dose‑Response Curve for Nalm 6"
+    title = "Dexamethasone Dose Response Curve for Nalm 6"
   ) 
 
 
@@ -229,5 +227,5 @@ ggplot() +
   labs(
     x = "Dose (nM)",
     y = "Normalized Cell Counts",
-    title = "Dexamethasone Dose‑Response Curve for Nalm 6"
+    title = "Dexamethasone Dose Response Curve for Nalm 6"
   )
